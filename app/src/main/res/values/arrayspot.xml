@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_layout_arrays">
+        <item>PNS</item>
+        <item>WIRAUSAHA</item>
+        <item>WIRASWASTA</item>
+        <item>DOKTER</item>
+    </string-array>
+</resources>

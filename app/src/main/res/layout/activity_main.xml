@@ -58,32 +58,13 @@
 
         <EditText
             android:id="@+id/editTextNS"
-            android:layout_width="wrap_content"
+            android:layout_width="349dp"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/textView"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/textView"
             android:layout_below="@+id/textView3" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/editTextNS"
-            android:text="Nomor Siswa" />
-
-        <EditText
-            android:id="@+id/editTextOS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/editTextNS"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/editTextNS"
-            android:layout_below="@+id/textView4" />
 
         <TextView
             android:id="@+id/textView5"
@@ -95,7 +76,7 @@
             android:text="Jurusan" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxTKJ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -104,21 +85,21 @@
             android:text="TKJ" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxRPL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/textView7"
             android:layout_alignRight="@+id/textView7"
-            android:layout_alignTop="@+id/checkBox"
+            android:layout_alignTop="@+id/checkBoxTKJ"
             android:text="RPL" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBoxMULTIMEDIA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/textView2"
             android:layout_alignRight="@+id/textView2"
-            android:layout_alignTop="@+id/checkBox2"
+            android:layout_alignTop="@+id/checkBoxRPL"
             android:text="MULTIMEDIA" />
 
         <TextView
@@ -127,12 +108,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/checkBox"
+            android:layout_below="@+id/checkBoxTKJ"
             android:text="Pekerjaan Orang Tua" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/textView"
             android:layout_alignParentLeft="true"
@@ -151,15 +132,16 @@
             android:text="Penghasilan Orang Tua" />
 
         <RadioGroup
-            android:id="@+id/radioGroup"
+            android:id="@+id/radioGroupPO"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignBottom="@+id/textView7"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:layout_alignParentStart="true"
+            android:longClickable="false">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="500.000 - 2000000" />
@@ -177,6 +159,37 @@
                 android:text="> 5000000" />
 
         </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/hasil1"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/hasil3"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/hasil4"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/hasil5"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="New Text" />
 
     </LinearLayout>
 </ScrollView>
