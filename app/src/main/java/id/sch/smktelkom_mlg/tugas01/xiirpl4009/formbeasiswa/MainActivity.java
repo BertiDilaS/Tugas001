@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         rg2 = (RadioButton) findViewById(R.id.radioButton2);
         rg3 = (RadioButton) findViewById(R.id.radioButton3);
 
-        spPKO = (Spinner) findViewById(R.id.spinner);
+        spPKO = (Spinner) findViewById(R.id.spinner1);
 
         buttonOK = (Button) findViewById(R.id.buttonOK);
 
