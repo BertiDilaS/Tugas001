@@ -17,4 +17,8 @@ Disini siswa SMK TELKOM MALANG mengisi :
 https://drive.google.com/file/d/0Bx_jtrvRVgohWno2dmZJTXowS0U/view?usp=sharing
 
 
-Berti Dila Septiana - XII RPL 4 - 09 - SMK TELKOM MALANG
+Berti Dila Septiana <br>
+XII RPL 4 <br>
+09 <br>
+4309/1207.063 <br>
+SMK TELKOM MALANG
