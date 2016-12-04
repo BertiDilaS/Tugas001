@@ -1,10 +1,10 @@
 # Tugas001
-Aplikasi Pendaftaran Beasiswa
-Disini siswa SMK TELKOM MALANG mengisi :  
-                                        1. Nama Lengkap Siswa
-                                        2. Jurusan (RPL,TKJ,MULTIMEDIA)
-                                        3. Pekerjaan Orangtua (PNS,WIRAUSAHA, WIRASWASTA, DOKTER)
-                                        4. Memilih gaji/penghasilan orangtua setiap bulan
+Aplikasi Pendaftaran Beasiswa <br>
+Disini siswa SMK TELKOM MALANG mengisi :  <br>
+                                        1. Nama Lengkap Siswa <br>
+                                        2. Jurusan (RPL,TKJ,MULTIMEDIA) <br>
+                                        3. Pekerjaan Orangtua (PNS,WIRAUSAHA, WIRASWASTA, DOKTER) <br>
+                                        4. Memilih gaji/penghasilan orangtua setiap bulan <br>
 ***                                        
                                         
                                         
